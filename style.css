@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* navbar */
+nav{
+    background-color: papayawhip;
+    flex: 0.5;
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 15px;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: darkgreen;
+}
+/* Banner */
+header{
+    background-color: burlywood;
+    /* flex: 1; */
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: url("./34a69d5a825004ad6c96b16c77a23472.jpg");
+   
+   
+
+}
+header h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+header button{
+    background-color: crimson;
+    padding: 15px;
+    bottom: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: orchid;
+}
+section{
+    background-color: blanchedalmond;
+    flex: 5;
+    display: flex;
+    
+}
+aside{
+    background-color: palevioletred;
+    flex: 0.3;
+
+    
+
+}
+main{
+    background-color: pink;
+    flex: 2;
+    
+}
+footer{
+    background-color: chartreuse;
+    flex: 1;
+}
+main h1{
+    text-align: center;
+}
+.Map{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
